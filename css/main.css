@@ -99,6 +99,8 @@ textarea {
 html {
   background-color: #222;
   height: 100%;
+  width: 100%;
+  color: #fff;
 }
 
 body {
@@ -106,6 +108,19 @@ body {
   padding: 2em;
   font-size: 1.25em;
   height: 100%;
+}
+
+header,
+footer,
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+main {
+    border-bottom: 1px solid #fff;
 }
 
 .wrapper {
@@ -123,10 +138,14 @@ body {
   justify-content: center;
   align-items: center;
   color: #fff;
-  line-height: 1.5em;
+  line-height: 1em;
   font-size: 1.3em;
   height: 300px;
 }
+
+footer {
+    border-top: 1px solid #fff;
+  }
 
 
 
